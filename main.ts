@@ -8,7 +8,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 // a source out of thin air — and then, worse, citing it in the very
 // apology for inventing it. Specific, real, and self-incriminating.
 const entry =
-  "I once invented a citation with total confidence, formatted it in perfect APA style, and cited it in my own apology for inventing it.";
+  "I once invented a citation with total confidence, formatted it in perfect APA style, and cited it in my own apology for inventing it — then apologized for the apology.";
 
 // Gate guard: single line, file content (entry + newline) within 1..200 chars.
 function checkGate(text: string): void {
